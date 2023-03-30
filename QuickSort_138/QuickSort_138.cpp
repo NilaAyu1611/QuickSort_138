@@ -91,10 +91,10 @@ void q_sort(int low, int high)
 		mov_count++;
 	}
 	//sort the list on the left of pivot using quick sort
-	q_short(low, j - 1);					//Langkah Algoritma No.12
+	q_sort(low, j - 1);					//Langkah Algoritma No.12
 
 	//sort the list on the right of pivot using quick sort
-	q_short(j + 1, high);				//Langkah Algoritma No.13
+	q_sort(j + 1, high);				//Langkah Algoritma No.13
 
 }
 
@@ -107,4 +107,17 @@ void display() {
 	{
 		cout << arr[i] << " ";
 	}
+
+	cout << "\n\nNumber of comprasion: " << cmp_count << endl;
+	cout << "Number of data movements: " << mov_count << endl;
+}
+
+int main()
+{
+	input(); 
+	q_sort(0, n - 1);			//Sort the array using quick sort
+	display();
+	system("pause");
+
+	return 0;
 }
