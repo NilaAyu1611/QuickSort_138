@@ -64,3 +64,8 @@ void q_sort(int low, int high)
 		{
 			i++;										//Langkah Algoritma No.6
 			cmp_count++;
+		}
+		cmp_count++;
+
+		//search for an element less than or equal to pivot
+		while ((arr[i] > pivot) && (j >= low))			//Langkah Algoritma No.7
