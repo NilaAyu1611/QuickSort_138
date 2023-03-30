@@ -7,7 +7,7 @@ int cmp_count = 0;		// number of comparasion
 int mov_count = 0;		// number of data movements
 int n;
 
-void input(); {
+void input() {
 	while (true)
 	{
 		cout << "Masukan panjang element array: ";
@@ -54,3 +54,7 @@ void q_sort(int low, int high)
 
 	i = low + 1;				// Langkah Algoritma No. 3
 	j = high;					// Langkah Algoritma No. 4
+
+
+	while (i <= j)				//Langkah Algoritma No. 10
+	{
