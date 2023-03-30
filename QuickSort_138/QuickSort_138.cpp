@@ -43,4 +43,5 @@ void swap(int x, int y)
 void q_sort(int low, int high)
 {
 	int pivot, i, j;
-}
+	if (low > high)			//Langkah Algoritma No. 1
+		return;
