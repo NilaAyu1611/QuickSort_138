@@ -77,3 +77,9 @@ void q_sort(int low, int high)
 
 		// if the greater element is on the left of the element
 		if (i < j)						//Langkah Algoritma No. 9
+		{
+			//swap the element at index 1 whit the element at index j
+			swap(i, j);
+			mov_count++;
+		}
+	}
