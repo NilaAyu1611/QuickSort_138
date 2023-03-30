@@ -90,3 +90,5 @@ void q_sort(int low, int high)
 		swap(low, j);
 		mov_count++;
 	}
+	//sort the list on the left of pivot using quick sort
+	q_short(low, j - 1);					//Langkah Algoritma No.12
