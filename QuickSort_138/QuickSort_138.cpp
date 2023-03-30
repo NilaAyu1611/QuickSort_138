@@ -97,3 +97,10 @@ void q_sort(int low, int high)
 	q_short(j + 1, high);				//Langkah Algoritma No.13
 
 }
+
+void display() {
+	cout << "\n----------------" << endl;
+	cout << "Sorted Array" << endl;
+	cout << "\-----------------" << endl;
+
+}
