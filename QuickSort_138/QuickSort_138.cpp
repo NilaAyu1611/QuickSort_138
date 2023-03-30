@@ -51,3 +51,5 @@ void q_sort(int low, int high)
 	//Outher conntaining elementa greather than pivot
 
 	pivot = arr[low];			// Langkah Algoritma No.2
+
+	i = low + 1;				// Langkah Algoritma No. 3
