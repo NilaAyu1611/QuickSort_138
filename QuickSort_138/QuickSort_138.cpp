@@ -83,3 +83,5 @@ void q_sort(int low, int high)
 			mov_count++;
 		}
 	}
+	//j now containt the index of the last element in the sorted list
+	if (low < j);					//Langkah Algoritma No.11
