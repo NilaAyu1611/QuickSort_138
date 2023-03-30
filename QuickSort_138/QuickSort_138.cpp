@@ -74,3 +74,6 @@ void q_sort(int low, int high)
 			cmp_count++;
 		}
 		cmp_count++;
+
+		// if the greater element is on the left of the element
+		if (i < j)						//Langkah Algoritma No. 9
